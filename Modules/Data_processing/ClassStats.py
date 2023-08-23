@@ -43,7 +43,7 @@ def main():
     mydb = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="calvin22",  # Add your MySQL password here
+        password="",  # Add your MySQL password here
         database="highlanderpugs"
     )
     mycursor = mydb.cursor()

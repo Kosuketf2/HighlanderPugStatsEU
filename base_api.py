@@ -1,12 +1,11 @@
 from flask import jsonify, request
 from flask.views import MethodView
 import mysql.connector
-
 def create_db_connection():
     return mysql.connector.connect(
         host='localhost',
         user='root',
-        password='calvin22',  # Add your MySQL password here
+        password='',  # Add your MySQL password here
         database='highlanderpugs'
     )
 
@@ -62,8 +61,8 @@ class PlayerClassStatsAPI(MethodView):
                         'overall_assists': row[3],
                         'overall_deaths': row[4],
                         'overall_dmg': row[5],
-                        'dapm': row[7],  # Corrected dapm index
-                        'overall_wins': row[6],
+                        'dapm': row[6],  # Corrected dapm index
+                        'overall_wins': row[7],
                         'matches_played': row[8],
                         'win_rate': float(row[9])  # Convert win_rate to a float
                     }
