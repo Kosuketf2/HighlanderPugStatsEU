@@ -1,6 +1,7 @@
 # HighlanderPugStatsEU
 Built using Python,Flask,React,Node.js
-Open API which can gather and sort logs from Logs.tf from HL.tf2pickup.EU with a timeframe of Overall or past 30 days and display them in a table with UI tools to sort, 
+
+Has a API which can gather and sort logs from Logs.tf from HL.tf2pickup.EU with a timeframe of Overall or past 30 days and display them in a table with UI tools to sort, 
 throught the data
 
 To Run:
