@@ -7,7 +7,7 @@
       "id": "cc0-1.0"
     }
   ],
-  "description": "Statistics for Highlander Pick-Up Games (PUGs) in Team Fortress 2.",
+  "description": "Statistics for Highlander Pick-Up Games (PUGs) in Team Fortress 2. Source code = https://github.com/Kosuketf2/HighlanderPugStatsEU/tree/master",
   "keywords": ["Team Fortress 2", "Highlander", "PUGs", "Statistics", "TF2"],
   "resources": [
     {
